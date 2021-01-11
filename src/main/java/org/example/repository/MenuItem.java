@@ -5,11 +5,11 @@ import com.google.gson.GsonBuilder;
 import lombok.Data;
 
 @Data
-public class Item extends Category {
+public class MenuItem extends Category {
 
     private String itemName;
 
-    private Integer itemPrice;
+    private String itemPrice;
 
     public String toString() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

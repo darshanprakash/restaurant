@@ -13,7 +13,7 @@ public class Reservation {
 
     private String eventDate;
 
-    private Integer size;
+    private String size;
 
     public String toString() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
